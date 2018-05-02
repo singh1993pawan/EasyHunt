@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Easyhunt</string>
+    <string name="spinner_title_for_district">---Select District---</string>
+    <string name="spinner_title_for_taluk">---Select Taluk---</string>
+    <string name="spinner_title_for_hobli">---Select Hobli/Ward---</string>
+
+</resources>

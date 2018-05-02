@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    tools:context="in.easyhunt.NewCustomer">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer Registration"
+        android:textSize="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+
+    <Spinner
+        android:id="@+id/selectdistrict"
+        android:layout_width="470dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:spinnerMode="dialog"
+        android:prompt="@string/spinner_title_for_district"
+        style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+        />
+
+
+    <Spinner
+        android:id="@+id/selecttaluka"
+        android:layout_width="470dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"
+        android:spinnerMode="dialog"
+        android:prompt="@string/spinner_title_for_taluk"
+        style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+        />
+
+    <Spinner
+        android:id="@+id/selecthobli"
+        android:layout_width="470dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"
+        android:spinnerMode="dialog"
+        android:prompt="@string/spinner_title_for_hobli"
+        style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+        />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/username_text_ut_layout"
+        android:layout_width="470dp"
+        android:layout_marginTop="450dp"
+        android:layout_centerHorizontal ="true"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="470dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/fname"
+        android:textSize="45dp"
+        android:hint="First Name"
+        android:textAllCaps="false"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/username_teput_layout"
+        android:layout_width="470dp"
+        android:layout_marginTop="550dp"
+        android:layout_centerHorizontal ="true"
+        android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="470dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/mname"
+        android:textSize="45dp"
+        android:hint="Middle Name"
+        android:textAllCaps="false"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/username_text_input_layout"
+        android:layout_width="470dp"
+        android:layout_marginTop="650dp"
+        android:layout_centerHorizontal ="true"
+        android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="470dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/lname"
+        android:textSize="45dp"
+        android:hint="Last Name"
+        android:textAllCaps="false"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/username_text_iut_layout"
+        android:layout_width="470dp"
+        android:layout_marginTop="750dp"
+        android:layout_centerHorizontal ="true"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="470dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailids"
+        android:hint="Email ID"
+        android:textSize="45dp"
+        android:textAllCaps="false"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/username_input_layout"
+        android:layout_width="470dp"
+        android:layout_marginTop="850dp"
+        android:layout_centerHorizontal ="true"
+        android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="470dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/mobilenumber"
+        android:hint="Mobile Number"
+        android:inputType="phone"
+        android:textSize="45dp"
+        android:textAllCaps="false"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/username_tet_input_layout"
+        android:layout_width="470dp"
+        android:layout_marginTop="950dp"
+        android:layout_centerHorizontal ="true"
+        android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="470dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/alternateperson"
+        android:hint="Alternate Contact Person"
+        android:textAllCaps="false"
+        android:textSize="45dp"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/usname_text_input_layout"
+        android:layout_width="470dp"
+        android:layout_marginTop="1050dp"
+        android:layout_centerHorizontal ="true"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="470dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/alternatemobile"
+        android:hint="Alternate Mobile Number"
+        android:textAllCaps="false"
+        android:textSize="45dp"
+        android:inputType="phone" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/username_text_int_layout"
+        android:layout_width="470dp"
+        android:layout_marginTop="1150dp"
+        android:layout_centerHorizontal ="true"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="470dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/password1"
+        android:hint="Password"
+        android:textSize="45dp"
+        android:inputType="textPassword"
+        android:textAllCaps="false" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/username_tput_layout"
+        android:layout_width="470dp"
+        android:layout_marginTop="1250dp"
+        android:layout_centerHorizontal ="true"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="470dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/password2"
+        android:hint="Confirm Password"
+        android:textSize="45dp"
+        android:inputType="textPassword"
+        android:textAllCaps="false"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <Button
+        android:layout_width="470dp"
+        android:layout_height="100dp"
+        android:id="@+id/register"
+        android:layout_marginTop="1400dp"
+        android:text="Register"
+        android:textSize="45dp"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E0E0E0">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/profile"
+            android:textSize="35dp"
+            android:text=" > Profile"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="20dp"
+            android:textAllCaps="false"
+            android:textColor="#757575" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/cp"
+            android:textSize="35dp"
+            android:text=" > Change Password"
+            android:textAllCaps="false"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#757575" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/nc"
+            android:textSize="35dp"
+            android:text=" > New Customer"
+            android:textAllCaps="false"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#757575" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/cl"
+            android:textSize="35dp"
+            android:text=" > Customer List"
+            android:textAllCaps="false"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#757575" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/payout"
+            android:textSize="35dp"
+            android:text=" > Payout"
+            android:textAllCaps="false"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#757575" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/plans"
+            android:textSize="35dp"
+            android:text=" > Plans"
+            android:textAllCaps="false"
+            android:layout_marginTop="310dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#757575" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/log"
+            android:textSize="35dp"
+            android:text=" > Logout"
+            android:textAllCaps="false"
+            android:layout_marginTop="360dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#757575" />
+    </RelativeLayout>
+
+</RelativeLayout>
